@@ -13,6 +13,22 @@ $ go get github.com/evalphobia/google-vision-ocr/...
 ```
 
 
+# Setting
+
+## Setup Cloud Vision API
+
+Enable [billing and API](https://cloud.google.com/vision/docs/quickstart).
+Then [create credential and save JSON file](https://cloud.google.com/vision/docs/common/auth).
+
+## Set credential
+
+set env parameter,
+
+```bash
+export GOOGLE_APPLICATION_CREDENTIALS=$HOME/.google/iam_service_credential.json
+```
+
+
 # Usage
 
 ## root command
